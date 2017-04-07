@@ -1,0 +1,370 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet"  href="css/styles.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="keywords" content="HTML,JS,CSS,jQuery, Bootstrap, AngularJs, PHP, Mysql, Git, Webdev, Web-developer, Junior Web-dev, Junior Front-end developer" /> 
+	<meta name="description" content="Junior web-developer showcase" /> 
+	<meta name="author" content="Karol Wojcik"/>
+	
+						<!-- FONTS -->
+						<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+						<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+						<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+						<link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
+			
+				<!-- [if lt IE 9]>
+				<script src="https://oss.maxcdn.com/libs/html15shiv/3.7.0/html15shiv.js"></script>
+				<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+				<![endif]-->
+														   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+														   	<script src="js/jquery.js"></script>
+														   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+														<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+														<!-- Include all compiled plugins (below), or include individual files as needed -->
+														<script src="https://cdn.rawgit.com/coderitual/odoo/feature/codevember16/lib/odoo.js"></script>
+														<script src="js/bootstrap.min.js"></script>
+														<script src="js/bootstrap.js"></script>
+<script>
+'use-strict'
+//Message to visitors :)
+		setTimeout(wakeUpUser,10000);
+		function wakeUpUser()
+		{
+			console.log('im still learning duuude');
+		};
+$(function(){
+$('#myNavbar a').on('click',function(){
+	$('html, body').animate({
+			scrollTop: $( $(this).attr('href') ).offset().top
+	}, 1200);
+	return false;
+	});												
+});
+</script>
+<style>
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    body {
+        font-size: 1.5em!important; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    body {
+        font-size: 1.2em!important; /* 1.2x default size */
+        }
+    }
+@media all and (max-width: 500px) { /* screen size until 500px */
+    body {
+        font-size: 0.8em!important; /* 0.8x default size */
+        }
+    }
+</style>	
+
+</head>
+
+<body >
+
+	<!-- Pomysl : simple onepager, without sliding effect + one addsite -->
+		<section id="section1">
+		<div class="container">
+			
+								<!--nawigacja--> 
+								<header>
+								<div class="container">
+									<div class="row">
+															
+										<div class="col-xs-12">
+												<nav class="navbar-fixed-top navbar-nav nav">
+															
+															<!--rozwijane menu--> 
+															<button type="button" class=" navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+																	<span class="glyphicon glyphicon-menu-hamburger  navbar-button"></span>
+															</button>
+															
+															<div class="collapse navbar-collapse"id="myNavbar">
+																		<ul>
+																				<li>
+																						<a href="#section1" class="nav-link">
+																						<span class="glyphicon glyphicon-arrow-up"></span>Back_to_the_top
+																						</a>
+																				</li>
+																				<li >
+																					<a href="#sectionaboutme" class="nav-link">
+																						<span class="glyphicon glyphicon-education"></span>About_me
+																					</a>
+																				</li>
+																				<li >
+																					<a href="#sectiontechnologies" class="nav-link">
+																						<span class="glyphicon glyphicon-cog"></span>Technologies
+																					</a>
+																				</li>
+																				<li>
+																						<a href="#sectioncontact" class="nav-link">
+																						<span class="glyphicon glyphicon-envelope"></span>Contact
+																						</a>
+																				</li>
+																		</ul>								
+															</div>
+												
+												</nav>
+										</div>
+								</div>
+								</div>
+								</header>
+
+
+
+								<div class="row">
+										<div class="col-xs-4 col-xs-push-4">
+														<!--header of the firstsection! -->
+
+																<h1 class="special_f">Karol Wójcik</h1>
+																
+																<p class="showcase">Showcase</p>
+														
+
+										</div>
+								</div>
+									
+				
+		</div>
+		</section>
+			
+																	<!-- DIVIDER--><section id="divider1"><!-- DIVIDER-->
+																	<div class="container">
+																	</div>
+																	<!-- DIVIDER--></section><!-- DIVIDER-->
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<section id="sectionaboutme">
+		<div class="container">
+			
+				<div class="col-xs-4 pictureofme">
+						<div class="backcard">
+							<img src="static/aboutme.jpg" alt="Smiley face" class="img-responsive img-rounded" data-toggle="tooltip" data-placement="bottom" title="Yes, it's not a professional picture."></img>
+						</div>
+						<div class="frontcard">
+							<img src="static/backface.jpg" alt="Smiley face" class="img-responsive img-rounded"></img>
+						</div>
+				</div>								
+				
+				<div class="col-xs-8">
+				
+																						
+						<div class="row">
+								<!--header of the mesection -->
+								<div class=" wellabout">
+								<h1 class="fontme">Few words :</h1>
+								</div>
+											<article class="well wellabout1">
+											
+											<p>I'm graduate of international baccalaurate ! (Yes, it does mean that I'm almost 20 years old...). 
+											I was studying on one of the best polish universities, when I realized that my choice was made not truly by myself. I always wanted to study computer science, but somehow I picked something different.</p>
+											<p>Now I'm really focused at learning as much as I can about programming. I had experience in html and css, hence my first choice (of course after basics of c++) was Js. And I'm still doing it ! That gives me a lot of fun, furthermore I'm not bored with it in any sort of way !</p>
+											<p>The most crucial aspect now is getting experience. I'm doing my best to improve my skills in case of front-end and getting my first job as Front-end developer. I've been saying that "nothing is impossible", I guess that's the right time to prove it. </p>
+											<p>I'm taking every task very seriously, and what's more I'm learning pretty fast. 
+											I hope I would get a chance to meet you ! </p>
+										
+											</article>
+							
+						</div>
+					
+				</div>
+						
+			
+		</div>
+		</section>
+		
+	
+																	<!-- DIVIDER--><section id="divider2"> <!-- DIVIDER-->
+																			<div class="container">
+																			</div>
+																	<!-- DIVIDER--></section><!-- DIVIDER-->
+		
+		
+		<section id="sectiontechnologies" class="container-fluid">
+
+																									<div class="row">													
+																												<h1 class="technologiesheader">Technologies :</h1>
+																									</div>	
+		<hr/>					
+																						<!--USING AND LEARNING ! ! ! ! !                       -->
+								<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="using1"><img src="static/using.png"class="img-responsive icon-img icon1" data-placement="top" data-toggle="tooltip" title="I'm using !"></img></div>
+								<div class="tagg">dzialajplz</div>
+											<article class="modal1">
+													<div class="modal-content"> 
+																																														<span class="close glyphicon glyphicon-remove-circle"></span>
+																
+																										<h1 class="awesomefont">I'm using :</h1>
+																																		
+																<span><img src="static/html5logo.png" class="img-responsive 	iconthumb">
+																<p class="skillfont">In case of HTML, I think that I've got strong basics, and knowledge about HTML5. I guess that everyone starts adventure called "web-design" with learning basics of HTML and so I've done.</p>
+																</span>
+																																																			
+																<span><img src="static/css3logo.png" class="img-responsive iconthumb">
+																<p class="skillfont">CSS is the brother of HTML, meanwhile HTML takes care of the correct layout, CSS does all what he can to create as attractive 
+																outlook as possible. Also in this case including CSS3 for sure, I have strong basic knowledge. I'm emphasizing the word "basic" because I don't really know how far I can go with my current knowledge.</p>
+																</span>
+																
+																<span><img src="static/javascript.png" class="img-responsive img-rounded iconthumb">
+																<p class="skillfont">In case of JavaScript, when I'm creating websites I do not overdose it. Sometimes when I'm doing some easy games that's the only way for me to accomplish it. I really want to learn more and more about it, due to the fact that the usage of JS is rapidly growing.</p>
+																</span>
+																
+																<span><img src="static/gitblack.png" class="img-responsive iconthumb">
+																<p class="skillfont">I'm used to Git Bash because from time to time I've been creating some projects in case of web-development.
+																I think it's "must-have" nowadays as you can clearly see the changes throughout the process of creating certain part of the project.</p>
+																</span>
+																
+																<span>
+																<img src="static/bslogo.png" class="img-responsive img-rounded iconthumb">
+																<p class="skillfont">I think that I can use Bootstrap without any problems, of course taking into consideration my "level". 
+																I'm well aware of the opportunities it opens with usage of CSS preprocessors, therefore I can't wait to learn it.</p>
+																</span>
+												
+																											
+																											
+													</div>						
+																	
+												</article>								
+																																					<!--LEARNING NOW ! ! !                      -->
+								<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="using2"><img src="static/future.png"class="img-responsive icon-img icon2" data-toggle="tooltip" data-placement="top" title="Learning right now !"></img></div>
+								
+								<article class="modal2">											
+													<div class="modal-content"> 
+																																																<span class="close glyphicon glyphicon-remove-circle"></span>
+																										
+																														<h1 class="awesomefont">Superficial knowledge :</h1>
+																																		
+																<span><img src="static/jquery.png" class="img-responsive 	iconthumb">
+																<p class="skillfont">jQuery... JavaScript library, indeed in spite of lack of knowledge and practice with it, I can accelerate process of creating scripts.
+																I think that it's great because it requires just basic knowledge of JS to just speed up your work. Nevertheless I'm certain that usage of jQuery on the higher level requires a lot of practice.</p>
+																</span>
+																																																			
+																<span><img src="static/sass.png" class="img-responsive img-rounded iconthumb">
+																<p class="skillfont">Here comes the preprocessor. I've seen the selling points of it, that surely keeps the code in CSS smaller and clearer.
+																That's the thing I'm gonna learn by heart, after being familiar with JS and jQuery. The point is to minimize amount of work you have to do, and maximize effectiveness. Am I right or am I right?</p>
+																</span>																										
+										
+													</div>												
+								</article>								
+																											<!--LEARNING IN THE NEAREST FUTURE                      -->
+								<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="using3"><img src="static/wanttolearn.png"class="img-responsive icon-img icon3" data-toggle="tooltip" data-placement="top"  title="Want to learn !"></img></div>
+								
+								<article class="modal3">
+											
+													<div class="modal-content"> 
+													
+																																																	<span class="close glyphicon glyphicon-remove-circle"></span>	
+																		
+																															<h1 class="awesomefont">Want to learn in the future :</h1>
+																																			
+																	<span><img src="static/angularjs.png" class="img-responsive 	iconthumb">
+																	<p class="skillfont">Angular.js is one of the most popular JavaScript's frameworks, furthermore one of the most valuable. 
+																	Nowadays learning Angular or React is extremely crucial, as most of the projects are realized by these technologies.</p>
+																	</span>
+																																																				
+																	<span><img src="static/php.png" class="img-responsive iconthumb">
+																	<p class="skillfont">I have never said that I want to be "ONLY" front-end developer. I've used few times PHP, and all what I can say that it's fun to play with. As it's one of the top back-end languages and I had practical contact with it I'm sure it's worth learning.</p>
+																	</span>
+																	
+																	<span><img src="static/mysql.png" class="img-responsive img-rounded iconthumb">
+																	<p class="skillfont">Last but not least, what could we do without database? Depending on the server-side, that's perfect choice for me 
+																	as it's not only popular and free to use, but also it's pleasent to learn. </p>
+																	</span>																										
+																											
+													</div>						
+								</article>							
+
+		</section>
+		
+																																		<!-- footer with contact ! ! ! ! ! -->
+		
+		<section id="sectioncontact" class="container-fluid">
+			<footer>
+									<p class="contactparagraph">Created by :&nbsp; Karol Wójcik</p>
+									<p class="contactparagraph">Telephone number :&nbsp; 533023835 &nbsp;<span	class="glyphicon glyphicon-earphone"></span></p>
+									<p class="contactparagraph">Email address : sylwek199112@gmail.com &nbsp;<span	class="glyphicon glyphicon-send"></span></p>		
+			</footer>
+		</section>
+
+	</div>	
+
+<script>
+$('#using1').on("click",function(){
+				$('.modal1').fadeIn("slow",function(){
+				$(this).css("display","block"); });
+			});
+			$('.close').on("click",function(){
+				$('.modal1').fadeOut("slow",function(){
+				$(this).css("display","none");});
+			});
+			$('#using1').on("mouseover",function(){
+				$('.tagg').css("display","block");
+			});
+			$('#using1').on("mouseout",function(){
+				$('.tagg').css("display","none");
+			});
+									$('#using2').on("click",function(){
+										$('.modal2').fadeIn("slow",function(){
+										$(this).css("display","block"); 
+										});
+									});
+									$('.close').on("click",function(){
+										$('.modal2').fadeOut("slow",function(){
+										$(this).css("display","none");});
+									});
+									
+													$('#using3').on("click",function(){
+														$('.modal3').fadeIn("slow",function(){
+														$(this).css("display","block"); });
+													});
+													$('.close').on("click",function(){
+														$('.modal3').fadeOut("slow",function(){
+														$(this).css("display","none");});
+													});
+</script>	
+								
+<script>
+	$(document).ready(function(){
+		$('[data-toggle="tooltip"]').tooltip();
+		console.log("dziala");
+	});
+</script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
