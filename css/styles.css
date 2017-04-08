@@ -256,6 +256,7 @@ a.nav-link:active
 	color:#FFE4E1;
 }
 .wellabout{
+	transition:800ms ease-in-out;
 	text-align:center;
 	background-color:#724724;
 	margin-top:75px;
@@ -278,10 +279,11 @@ a.nav-link:active
     }
 @media all and (max-width: 500px) { /* screen size until 500px */
     .wellabout{
-        font-size: 0.8em; /* 0.8x default size */
+        font-size: 11px; 
         }
     }
 .wellabout1{
+	transition:800ms ease-in-out;
 	font-size:20px;
 	text-align:center;
 	background-color:#724724;
@@ -295,17 +297,17 @@ a.nav-link:active
 }
 @media all and (max-width: 1200px) { /* screen size until 1200px */
     .wellabout1{
-        font-size: 1.2em;/* 1.3x default size */
+        font-size: 18px;
     }
 }
 @media all and (max-width: 1000px) { /* screen size until 1000px */
    .wellabout1 {
-        font-size: 1.1em; /* 1.1x default size */
+        font-size: 13px; 
         }
     }
 @media all and (max-width: 500px) { /* screen size until 500px */
     .wellabout1 {
-        font-size: 0.8em; /* 0.8x default size */
+        font-size: 9px; 
         }
     }
 
