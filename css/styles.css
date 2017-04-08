@@ -54,7 +54,6 @@
 														  letter-spacing: 4px;
 														  text-decoration:none;
 														  animation:comeout 1s ease-in 0s 1;
-
 														}
 														.navbar-fixed-top
 														{
@@ -113,6 +112,7 @@ a.nav-link:active
 																				text-align:center;
 																				white-space: nowrap;			
 																				font-size:80px;
+																				animation:comeout 1s ease-in 0s 1;
 																			}
 																			.showcase
 																			{
@@ -124,6 +124,7 @@ a.nav-link:active
 																				mix-blend-mode:color-burn;
 																				text-align:center;
 																				white-space: nowrap;			
+																				animation:comeout 1s ease-in 0s 1;
 																			}																			
 																			@media all and (max-width: 1200px) { /* screen size until 1200px */
 																			.showcase
@@ -141,10 +142,10 @@ a.nav-link:active
 																		}
 																		@media all and (max-width: 500px) { /* screen size until 500px */
 																			.special_f{
-																				font-size: 1.4em; /* 1.4x default size */
+																				font-size: 20px; /* 1.4x default size */
 																				}
 																			.showcase{
-																				font-size: 1.4em;/* 1.4x default size */
+																				font-size: 18px;/* 1.4x default size */
 																			}
 																		}
 																			.js-odoo
@@ -203,7 +204,7 @@ a.nav-link:active
 								/* CARD WITH ME */
 								.pictureofme
 								{
-									margin-top:60px;
+									margin-top:75px;
 									transform-style: preserve-3d;
 								}																						
 								.pictureofme > .frontcard{
@@ -257,7 +258,7 @@ a.nav-link:active
 .wellabout{
 	text-align:center;
 	background-color:#724724;
-	margin-top:60px;
+	margin-top:75px;
 	color:#FFE4C4;
 	border-color:#630c15;
 	border-style: double;
@@ -344,12 +345,30 @@ a.nav-link:active
 	text-align:center;
 	margin-top:90px;
 }
+@media all and (max-width:1200px)
+{
+	.technologiesheader
+{
+	margin-top:30px;
+}
+}
 .awesomefont
 {
 	mix-blend-mode:color-burn;
 	letter-spacing:-2px;
 	font-family: 'Raleway', sans-serif;
 	text-align:center;
+	font-size:30px;
+}
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+.skillfont{
+	font-size: 26px;
+				}
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+.skillfont{
+	font-size: 21px; /* 1.1x default size */
+			}
 }
 																	/*ICONS WITH MODALS ! ! ! *//*AND TEXT */
 																	.icon-img
@@ -380,7 +399,7 @@ a.nav-link:active
 																	   .icon-img {
 																		   margin-top:10px;
 																			height:150px; 
-																		   width:400px;
+																		   width:300px;
 																			}
 																		}
 																	@media all and (max-width: 500px) { /* screen size until 500px */
@@ -422,37 +441,18 @@ a.nav-link:active
 }
 			@media all and (max-width: 1200px) { /* screen size until 1200px */
 					.skillfont{
-						font-size: 1.2em;/* 1.3x default size */
+						font-size: 20px;
 					}
 				}
 				@media all and (max-width: 1000px) { /* screen size until 1000px */
 				   .skillfont{
-						font-size: 1.1em; /* 1.1x default size */
-						}
-					}
-				@media all and (max-width: 500px) { /* screen size until 500px */
-					.skillfont {
-						font-size: 0.8em; /* 0.8x default size */
+						font-size: 15px; /* 1.1x default size */
 						}
 					}
 .iconthumb
 {
 	text-align:center;
 	margin:0 auto;
-}
-.tagg {
-	display:none;
-	height:50px;
-	width:50px;
-	float: left;
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	z-index: 1000;
-	background-color: #92AD40;
-	padding: 5px;
-	color: #FFFFFF;
-	font-weight: bold;
 }
 .modal1 {				
 			left: 0;
