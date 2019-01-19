@@ -1,4 +1,4 @@
-# iRaseth.github.io
+# showcase
 showcase
 
 simple website created to learn basics of frontend *2017*
